@@ -4,6 +4,15 @@ export default function Home() {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <section className="text-center mb-16">
+        <div className="mb-8 flex justify-center">
+          <div className="relative w-32 h-32 md:w-40 md:h-40">
+            <img
+              src="/profile.jpg"
+              alt="Tong Phuong"
+              className="rounded-full w-full h-full object-cover border-4 border-blue-600 dark:border-blue-400 shadow-lg"
+            />
+          </div>
+        </div>
         <h1 className="text-5xl font-bold mb-4">
           Hi, I'm <span className="text-blue-600 dark:text-blue-400">Tong Phuong</span>
         </h1>

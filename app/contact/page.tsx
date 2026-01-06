@@ -131,32 +131,21 @@ export default function ContactPage() {
           <p>
             <strong>Email:</strong>{" "}
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:phuongtong474@gmail.com"
               className="text-blue-600 dark:text-blue-400 hover:underline"
             >
-              your.email@example.com
+              phuongtong474@gmail.com
             </a>
           </p>
           <p>
             <strong>GitHub:</strong>{" "}
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Tongphuong"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 dark:text-blue-400 hover:underline"
             >
-              github.com/yourusername
-            </a>
-          </p>
-          <p>
-            <strong>LinkedIn:</strong>{" "}
-            <a
-              href="https://linkedin.com/in/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 dark:text-blue-400 hover:underline"
-            >
-              linkedin.com/in/yourusername
+              github.com/Tongphuong
             </a>
           </p>
         </div>
