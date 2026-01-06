@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -6,10 +7,13 @@ export default function Home() {
       <section className="text-center mb-16">
         <div className="mb-8 flex justify-center">
           <div className="relative w-32 h-32 md:w-40 md:h-40">
-            <img
+            <Image
               src="/profile.jpg"
               alt="Tong Phuong"
+              width={160}
+              height={160}
               className="rounded-full w-full h-full object-cover border-4 border-blue-600 dark:border-blue-400 shadow-lg"
+              priority
             />
           </div>
         </div>
