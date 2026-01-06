@@ -4,8 +4,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Welcome to my personal portfolio website",
+  title: "Tong Phuong | English Teacher & AI Ops Developer",
+  description: "English teacher, writer, and AI ops developer helping educators embrace AI. 5 years teaching experience with a passion for making learning feel like playing.",
 };
 
 export default function RootLayout({

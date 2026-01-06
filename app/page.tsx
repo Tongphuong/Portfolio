@@ -5,10 +5,10 @@ export default function Home() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <section className="text-center mb-16">
         <h1 className="text-5xl font-bold mb-4">
-          Hi, I'm <span className="text-blue-600 dark:text-blue-400">Your Name</span>
+          Hi, I'm <span className="text-blue-600 dark:text-blue-400">Tong Phuong</span>
         </h1>
         <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">
-          Developer | Creator | Problem Solver
+          English Teacher | Writer | AI Ops Developer
         </p>
         <div className="flex justify-center gap-4">
           <Link
@@ -30,19 +30,22 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-6">About Me</h2>
         <div className="prose prose-lg dark:prose-invert max-w-none">
           <p>
-            I'm a passionate developer with a love for creating elegant solutions
-            to complex problems. My journey in software development started when
-            I wrote my first line of code, and I haven't looked back since.
+            I'm an English teacher and writer with 5 years of experience teaching children
+            ages 6-15. My approach goes beyond grammar and vocabulary—I teach English through
+            essential soft skills like presentation, storytelling, debate, and negotiation.
+            I believe that <strong>"Learning should feel like playing,"</strong> and I design
+            every lesson to spark curiosity and joy.
           </p>
           <p>
-            I specialize in building modern web applications using cutting-edge
-            technologies like React, Next.js, and TypeScript. I believe in writing
-            clean, maintainable code and creating user experiences that delight.
+            As an AI ops developer, I'm on a mission to help educators embrace AI as a powerful
+            teaching tool, not something to fear. I build AI-powered systems that connect various
+            AI applications to streamline tasks like lesson planning, content creation, and student
+            engagement—empowering teachers to focus on what they do best: inspiring students.
           </p>
           <p>
-            When I'm not coding, you can find me exploring new technologies,
-            contributing to open-source projects, or sharing what I've learned
-            through blog posts and tutorials.
+            Whether I'm crafting a compelling story for young learners or automating workflows
+            with AI, my goal is the same: make education more effective, engaging, and accessible
+            for everyone.
           </p>
         </div>
       </section>
@@ -51,15 +54,15 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-6">Skills</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {[
-            "JavaScript",
-            "TypeScript",
-            "React",
-            "Next.js",
-            "Node.js",
-            "Tailwind CSS",
-            "Git",
-            "HTML/CSS",
-            "REST APIs",
+            "Teaching & Training",
+            "Storytelling",
+            "Presentation Skills",
+            "Debate & Negotiation",
+            "AI Ops Development",
+            "Prompt Engineering",
+            "Workflow Automation",
+            "Content Creation",
+            "Curriculum Design",
           ].map((skill) => (
             <div
               key={skill}
@@ -72,38 +75,41 @@ export default function Home() {
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold mb-6">Experience</h2>
+        <h2 className="text-3xl font-bold mb-6">What I Do</h2>
         <div className="space-y-8">
           <div className="border-l-4 border-blue-600 pl-4">
-            <h3 className="text-xl font-semibold">Senior Developer</h3>
+            <h3 className="text-xl font-semibold">English Teacher & Soft Skills Coach</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-2">
-              Tech Company • 2022 - Present
+              2020 - Present • 5 Years Experience
             </p>
             <p className="text-gray-700 dark:text-gray-300">
-              Leading development of modern web applications using React and Next.js.
-              Mentoring junior developers and establishing best practices for the team.
+              Teaching English to children ages 6-15 through engaging soft skills development.
+              Specializing in presentation, storytelling, debate, and negotiation techniques
+              that make language learning fun and practical. Philosophy: "Learning should feel like playing."
             </p>
           </div>
 
           <div className="border-l-4 border-blue-600 pl-4">
-            <h3 className="text-xl font-semibold">Full Stack Developer</h3>
+            <h3 className="text-xl font-semibold">AI Ops Developer for Education</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-2">
-              Startup Inc • 2020 - 2022
+              2023 - Present
             </p>
             <p className="text-gray-700 dark:text-gray-300">
-              Built and maintained multiple client projects from conception to deployment.
-              Worked with cross-functional teams to deliver high-quality products.
+              Building AI-powered systems that connect multiple AI applications to automate
+              teaching workflows. Creating tools for lesson planning, content generation, and
+              student engagement tracking—helping educators embrace AI technology confidently.
             </p>
           </div>
 
           <div className="border-l-4 border-blue-600 pl-4">
-            <h3 className="text-xl font-semibold">Junior Developer</h3>
+            <h3 className="text-xl font-semibold">Writer & Content Creator</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-2">
-              Web Agency • 2018 - 2020
+              Ongoing
             </p>
             <p className="text-gray-700 dark:text-gray-300">
-              Developed responsive websites and web applications for various clients.
-              Collaborated with designers to implement pixel-perfect designs.
+              Creating educational content, teaching materials, and storytelling resources
+              for young learners. Writing about the intersection of education, technology,
+              and AI to help teachers adapt to the future of learning.
             </p>
           </div>
         </div>
