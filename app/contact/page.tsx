@@ -148,6 +148,17 @@ export default function ContactPage() {
               github.com/Tongphuong
             </a>
           </p>
+          <p>
+            <strong>Facebook:</strong>{" "}
+            <a
+              href="https://www.facebook.com/phuong.tong.79230"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 dark:text-blue-400 hover:underline"
+            >
+              facebook.com/phuong.tong.79230
+            </a>
+          </p>
         </div>
       </div>
     </div>

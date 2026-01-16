@@ -37,6 +37,24 @@ export default function Home() {
             Get In Touch
           </Link>
         </div>
+        <div className="flex justify-center gap-6 mt-6">
+          <a
+            href="https://github.com/Tongphuong"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.facebook.com/phuong.tong.79230"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium"
+          >
+            Facebook
+          </a>
+        </div>
       </section>
 
       <section className="mb-16">
